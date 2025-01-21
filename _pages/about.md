@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 #### Short Bio
 
-I'm Full Professor at the Department of Engineering “Enzo Ferrari” from the University of Modena and Reggio Emilia, where he teaches Software Engineering and Big Data Analysis. 
+I'm Full Professor at the Department of Engineering “Enzo Ferrari” from the University of Modena and Reggio Emilia, where I teach Software Engineering and Big Data Analysis. 
 
 My research interests include **scalable data management and integration** (I'm working on the development of Machine Learning and Deep Learning explainable techniques to the Entity Resolution problem), **data mining and analytics on big data** (I'm working on techniques for anomaly and novelty detection, for supporting machine learning techniques in production), **semantic web** (I'm  involved in projects for the creation and alignment of ontologies), and  **keyword based searches on structured datasets**. 
 
