@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
-nav: false
-nav_order: 8
+title: teaching
+nav: true
+nav_order: 6
 dropdown: true
-children:
-  - title: bookshelf
-    permalink: /books/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+children: 
+    - title: teaching
+      permalink: /teaching/
+    - title: divider
+    - title: thesis
+      permalink: /thesis/
 ---
