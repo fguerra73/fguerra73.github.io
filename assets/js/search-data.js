@@ -37,7 +37,28 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Software Engineering &amp; Big Data and text Analytics @ UNIMORE",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "dropdown-teaching",
+              title: "teaching",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/teaching/";
+              },
+            },{id: "dropdown-thesis",
+              title: "thesis",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/thesis/";
+              },
+            },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
