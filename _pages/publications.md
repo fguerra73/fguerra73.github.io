@@ -6,6 +6,8 @@ description: publications by categories in reversed chronological order. generat
 nav: true
 nav_order: 2
 ---
+<font size =3>Please refer to <a href="https://dblp.org/pid/g/FrancescoGuerra.html">DBLP</a>, <a href="https://www.scopus.com/authid/detail.uri?authorId=23396829400">Scopus</a> and <a href="https://scholar.google.com/citations?hl=it&user=s3L_fj0AAAAJ&view_op=list_works&authuser=2">Google Scholar</a> for the complete list.</font>
+
 
 <!-- _pages/publications.md -->
 
