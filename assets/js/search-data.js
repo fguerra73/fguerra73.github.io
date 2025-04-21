@@ -461,6 +461,56 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-time-series-analysis",
+          title: 'Time-series Analysis',
+          description: "Techniques for analyzing time-series",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/at_project/";
+            },},{id: "projects-enterprise-data-analysis",
+          title: 'Enterprise Data Analysis',
+          description: "Consulting on enterprise data",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/company/";
+            },},{id: "projects-explaianable-entity-matching",
+          title: 'Explaianable Entity Matching',
+          description: "Development of Machine Learning and Deep Learning Techniques for Entity Matching",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/eem_project%20(copia)/";
+            },},{id: "projects-entity-matching",
+          title: 'Entity Matching',
+          description: "Development of Machine Learning and Deep Learning Techniques for Entity Matching",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/em_project/";
+            },},{id: "projects-fairness-in-ai",
+          title: 'Fairness in AI',
+          description: "Evaluating the fairness of AI processes",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fai_project/";
+            },},{id: "projects-keystone",
+          title: 'KEYSTONE',
+          description: "COST Action IC1302",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/keystone/";
+            },},{id: "projects-panacea",
+          title: 'Panacea',
+          description: "PRIN PROGETTI DI RICERCA DI RILEVANTE INTERESSE NAZIONALE Bando 2022",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/panacea/";
+            },},{id: "projects-data-analysis-for-public-organizations",
+          title: 'Data Analysis for Public Organizations',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/public/";
+            },},{id: "projects-re-search-alps",
+          title: 'Re-search Alps',
+          description: "CEF Telecom",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/researchalps/";
+            },},{id: "projects-resist0",
+          title: 'Resist0',
+          description: "PR FESR 2021-27 EMILIA-ROMAGNA",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/resisto/";
             },},{
         id: 'social-email',
         title: 'email',
