@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>.  Department of Engineering "Enzo Ferrari", UNIMORE, Italy
+subtitle: <a href='https://www.ingmo.unimore.it'>Affiliations</a>.  Department of Engineering "Enzo Ferrari", UNIMORE, Italy
 
 profile:
   align: right
