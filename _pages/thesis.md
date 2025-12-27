@@ -106,6 +106,9 @@ a supporto del Search Engine
 - VALERIA COLOCA : Synthesizing hard matching records with LLMs, (2023/2024)
 - MARIELE SANTUCCI : Progettazione di un Benchmark e Framework di Valutazione per LLM su Question Answering con Dati Duplicati, (2023/2024)
 - ANDREA VALERIO : Elements and Metodologies for Development of Production-Ready Kubernetes Clusters, (2023/2024)
+- FILIPPO MARINELLI : Optimizing Transfer Learning in Entity Matching Through Dataset Similarity, (2023/2024)
+- SARA PEDERZOLI : Forte Decomposizione Stagionale come Preprocessing per Migliorare l'Apprendimento Self-Supervised nei Compiti di Previsione di Serie Temporali, (2023/2024)
+- GIULIO GANZERLI : Additive Models for Explainable Entity Matching, (2023/2024)
 
 ## Advisor in Bachelor Thesis (Dipartimento di Ingegneria "Enzo Ferrari")
 
