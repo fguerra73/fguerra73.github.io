@@ -101,6 +101,12 @@ a supporto del Search Engine
 - PIETRO BIZZARRI : Analisi Dell'Offerta E Previsione Della Domanda Di Prestazioni Di Specialistica Ambulatoriale: Sviluppo Di Una Soluzione Analytics Per Una Struttura Sanitaria., (2022/2023)
 - DAVIDE CORRADI : Sviluppo Di Un Sistema Di Log Management A Supporto Della Gestione Dell'Impresa, (2022/2023)
 
+2023/2024
+- DAVIDE ABBA : Progettazione e implementazione di un assistente IA generativo per il supporto del servizio clienti utilizzando Large Language Models e Retrieval-Augmented Generation, (2023/2024)
+- VALERIA COLOCA : Synthesizing hard matching records with LLMs, (2023/2024)
+- MARIELE SANTUCCI : Progettazione di un Benchmark e Framework di Valutazione per LLM su Question Answering con Dati Duplicati, (2023/2024)
+- ANDREA VALERIO : Elements and Metodologies for Development of Production-Ready Kubernetes Clusters, (2023/2024)
+
 ## Advisor in Bachelor Thesis (Dipartimento di Ingegneria "Enzo Ferrari")
 
 1.    ANDREA ZAVARONI: Analisi di reti con il tool Gephi, a.a. (2013/2014)
