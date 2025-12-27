@@ -354,9 +354,7 @@ Il Piedibus del Comune di Noceto
 234.   ENRICO GARRAPA: Sviluppo di una piattaforma e-commerce con Django, a.a. (2023/2024)
 235.   FILIPPO GIBERTINI: Algoritmo di path-planning per vettura da competizione a guida autonoma, a.a. (2023/2024)
 236.   ALESSANDRO MAINI: Persistenza dei Dati in Java: Analisi di ORM, JPA e Hibernate con Applicazione Pratica, a.a. (2023/2024)
-237.   HALIMA MOUKRIME: L'Importanza della qualità del software nel ciclo di vita dei progetti
-
-Vita dei Progetti, a.a. (2023/2024)
+237.   HALIMA MOUKRIME: L'Importanza della qualità del software nel ciclo di vita dei progetti, a.a. (2023/2024)
 238.   SAVERIO NAPOLITANO: Applicazione per la gestione del cibo, a.a. (2023/2024)
 239.   ANDREA RIZZA: Intelligenze Artificiali: Analisi delle AI generative, a.a. (2023/2024)
 240.   GIULIA TAMAGNINI: Analisi delle tecniche di testing nel ciclo di sviluppo del software , a.a. (2023/2024)
