@@ -45,6 +45,5 @@ This research contributes to trustworthy data integration pipelines where matchi
 
 - Matteo Paganelli, Francesco Del Buono, Francesco Guerra, Nicola Ferro. Evaluating the integration of datasets. SAC 2022: 347-356.
 
-For a complete list of publications, see the [DBLP profile](https://dblp.org/pid/g/FrancescoGuerra.html) and the [UNI-FIND profile](https://unimore.unifind.cineca.it/get/person/090294).
 
 
