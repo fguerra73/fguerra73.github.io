@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
@@ -488,6 +495,11 @@ ninja.data = [{
           description: "Development of Machine Learning and Deep Learning Techniques for Entity Matching",
           section: "Projects",handler: () => {
               window.location.href = "/projects/em_project/";
+            },},{id: "projects-evidence-grounded-nlp-and-llms",
+          title: 'Evidence-grounded NLP and LLMs',
+          description: "NLP and LLM systems that connect answers, claims and decisions to explicit evidence.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/evidence_grounded_nlp_llms/";
             },},{id: "projects-fairness-in-ai",
           title: 'Fairness in AI',
           description: "Evaluating the fairness of AI processes",
