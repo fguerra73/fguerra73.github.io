@@ -2,19 +2,21 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Francesco Guerra @DIEF-UNIMORE
 first_name: Francesco
 middle_name: 
 last_name: Guerra
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Full Professor at the University of Modena and Reggio Emilia. 
+  Research in trustworthy data-centric AI, NLP/LLMs, explainable AI, data integration and financial AI.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+ Francesco Guerra is Full Professor of Information Engineering at the University of Modena and Reggio Emilia.
+  His research focuses on trustworthy data-centric AI, NLP and LLMs, explainable and auditable AI,
+  data integration, entity matching, time-series analytics, fairness, benchmarking and financial decision support.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  Francesco Guerra — University of Modena and Reggio Emilia.
+keywords: Francesco Guerra, University of Modena and Reggio Emilia, UNIMORE, DTALab, data-centric AI, NLP, LLM, explainable AI, data integration, entity matching, time-series analysis, fairness, financial AI
+ # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
