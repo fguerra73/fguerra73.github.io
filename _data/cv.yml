@@ -7,6 +7,10 @@
       value: 21st May 1973
     - name: Languages
       value: Italian, English, French
+    - name: Affiliation
+      value: Department of Engineering "Enzo Ferrari", University of Modena and Reggio Emilia, Italy
+    - name: Office
+      value: MO-27-01-034, DIEF, via Vivarelli 12, 41125 Modena, Italy
 
 - title: Education
   type: time_table
@@ -15,20 +19,26 @@
       institution: University of Modena and Reggio Emilia, Italy
       year: 2004
 
-    - title: Master Thesis in Information Engineering
+    - title: Master Degree in Information Engineering
       institution: University of Modena and Reggio Emilia, Italy
       year: 2000
 
-- title: Experience
+    - title: Diploma di Maturita Classica
+      institution: Liceo Classico "L. A. Muratori", Modena, Italy
+      year: 1992
+
+- title: Academic Positions
   type: time_table
   contents:
     - title: Full Professor in Information Engineering
       institution: University of Modena and Reggio Emilia, Italy
       year: "2022 - present"
+      description:
+        - Teaching Software Engineering and Big Data Analysis.
 
     - title: Visiting Professor
       institution: University of Rijeka, Croatia
-      year: 2020
+      year: 2019
 
     - title: Associate Professor in Information Engineering
       institution: University of Modena and Reggio Emilia, Italy
@@ -38,22 +48,59 @@
       institution: University of Modena and Reggio Emilia, Italy
       year: "2005 - 2015"
 
+- title: Institutional Roles
+  type: time_table
+  contents:
+    - title: President of the Bachelor's and Master's Degree Course Councils in Computer Engineering
+      institution: Department of Engineering "Enzo Ferrari", University of Modena and Reggio Emilia, Italy
+      year: "2022 - present"
+
+    - title: Rector's Delegate for ICT
+      institution: University of Modena and Reggio Emilia, Italy
+      year: "2024 - 2025"
+
+    - title: Coordinator of the Computer Engineering and Science Curriculum, ICT Doctoral School
+      institution: University of Modena and Reggio Emilia, Italy
+      year: "2021 - 2023"
+
+    - title: Visiting Reviewer for AI Theses
+      institution: University of Malta
+      year: "2022 - 2024"
+
 - title: Research Profile
   type: list
   contents:
     - Trustworthy data-centric AI systems connecting models, data, evidence and explanations.
-    - NLP and LLM systems for fact-checking, evidence grounding, source attribution and decision support.
-    - Explainable, auditable and reproducible AI pipelines for heterogeneous data, textual evidence, tables, financial signals and structured records.
+    - Scalable data management and data integration methods for heterogeneous, structured, semi-structured and textual data.
+    - Machine learning and deep learning techniques for entity resolution, entity matching and explainable data integration.
+    - NLP and LLM systems for fact-checking, evidence grounding, source attribution, table understanding and decision support.
+    - Explainable, auditable and reproducible AI pipelines for textual evidence, tables, financial signals, time series and structured records.
 
 - title: Academic Interests
   type: nested_list
   contents:
+    - title: Data Integration and Explainable Entity Matching
+      items:
+        - Entity matching, entity resolution, record linkage and data cleaning over heterogeneous sources
+        - Machine learning and deep learning techniques for entity matching
+        - Explainable entity matching with landmark-based, evidence-based and cluster-based explanations
+        - Analysis of BERT-based and transformer-based models for entity matching
+        - Data quality, deduplication and interpretable data integration pipelines
+
+    - title: Scalable Data Management and Structured Data Analytics
+      items:
+        - Scalable techniques for managing, integrating and analysing large structured and semi-structured datasets
+        - Discovery and summarization of structured data
+        - Application of NLP and machine learning techniques to structured data
+        - Integration of textual, tabular and relational evidence in data-intensive pipelines
+
     - title: Evidence-grounded NLP and LLMs
       items:
         - Claim verification and fact-checking over textual, tabular and structured evidence
         - Evidence retrieval, source attribution and evidence-level explanations
         - RAG and LLM pipelines whose outputs can be inspected, audited and validated by domain experts
         - Table QA and Multi-table QA over complex reports and semi-structured sources
+        - Automatic textual and tabular data analysis
 
     - title: Explainable and Auditable AI
       items:
@@ -68,13 +115,6 @@
         - Universal triggers and semantic-preserving perturbations
         - Robustness auditing of fact-checking, RAG and language-based AI pipelines
         - Bias diagnosis and vulnerability analysis in textual models
-
-    - title: Data Integration and Explainable Entity Matching
-      items:
-        - Entity matching, record linkage and data cleaning over heterogeneous sources
-        - Explainable entity matching with evidence-based and cluster-based explanations
-        - Deep learning and transformer-based models for entity matching
-        - Data quality, deduplication and interpretable data integration pipelines
 
     - title: Interpretable Time-series Analysis
       items:
@@ -109,3 +149,55 @@
         - LLM systems guided by explicit phases, interaction moves and assessment criteria
         - Intelligent tutoring systems and reading comprehension support
         - Expert-guided workflows for education, training, compliance and decision support
+
+    - title: Keyword Search on Structured Data
+      items:
+        - Keyword search techniques for relational and multi-table databases
+        - Semantic keyword search over structured data sources
+        - Search and exploration of structured datasets
+
+    - title: Semantic Web and Ontology Integration
+      items:
+        - Ontology alignment and integration
+        - Semantic data integration
+        - Knowledge-oriented data management
+
+- title: Teaching
+  type: nested_list
+  contents:
+    - title: Current teaching
+      items:
+        - Software Engineering
+        - Big Data Analysis
+
+    - title: Main teaching areas
+      items:
+        - Big data management and analytics
+        - Text analytics and natural language processing
+        - Data integration and data management
+        - Software engineering
+
+- title: Selected Projects and Coordination
+  type: time_table
+  contents:
+    - title: KEYSTONE COST Action - Semantic Keyword Search on Structured Data Sources
+      institution: COST Action IC1302
+      year: "2013 - 2017"
+      description:
+        - Coordinator of the European COST Action on semantic keyword search over structured data sources.
+
+    - title: Re-search Alps
+      institution: INEA/CEF/ICT/A2016/1296967
+      year: "2017 - 2019"
+      description:
+        - Project activity on research data integration and information systems.
+
+- title: Online Profiles
+  type: map
+  contents:
+    - name: Institutional page
+      value: https://unimore.unifind.cineca.it/get/person/090294
+    - name: DBLP
+      value: https://dblp.org/pid/g/FrancescoGuerra.html
+    - name: Personal website
+      value: https://fguerra73.github.io/
