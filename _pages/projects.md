@@ -2,8 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: DTALab develops trustworthy data-centric AI systems that connect models, data, evidence and explanations. Our research focuses on NLP/LLMs, evidence-grounded reasoning, explainable and auditable decision support, semantic robustness, reproducible benchmarking, data integration, fairness-aware learning and financial AI.
-We design AI pipelines whose behaviour can be inspected, stress-tested and validated by domain experts, with applications in finance, compliance, education, information integrity, public-sector services and data-intensive organisational workflows.
+description: 
 nav: true
 nav_order: 3
 display_categories: [interests, projects, past]
