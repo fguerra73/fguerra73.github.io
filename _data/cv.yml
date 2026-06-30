@@ -14,62 +14,98 @@
     - title: PhD in Information Engineering
       institution: University of Modena and Reggio Emilia, Italy
       year: 2004
-      <!--description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.-->
+
     - title: Master Thesis in Information Engineering
       institution: University of Modena and Reggio Emilia, Italy
       year: 2000
-      <!--description:
-        - Description 1.
-        - Description 2.-->
 
 - title: Experience
   type: time_table
   contents:
     - title: Full Professor in Information Engineering
       institution: University of Modena and Reggio Emilia, Italy
-      year: 2022 - 
-      <!--description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.-->
+      year: "2022 - present"
+
     - title: Visiting Professor
-      institution: University of Rijeka, HR
+      institution: University of Rijeka, Croatia
       year: 2020
+
     - title: Associate Professor in Information Engineering
       institution: University of Modena and Reggio Emilia, Italy
-      year: 2015 - 2022
+      year: "2015 - 2022"
+
     - title: Assistant Professor in Information Engineering
       institution: University of Modena and Reggio Emilia, Italy
-      year: 2005 - 2015
+      year: "2005 - 2015"
+
+- title: Research Profile
+  type: list
+  contents:
+    - Trustworthy data-centric AI systems connecting models, data, evidence and explanations.
+    - NLP and LLM systems for fact-checking, evidence grounding, source attribution and decision support.
+    - Explainable, auditable and reproducible AI pipelines for heterogeneous data, textual evidence, tables, financial signals and structured records.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Scalable Data Management and Integration
-      items: 
-        - Machine Learning and Deep learning techniques for Entity Resolution
-        - Explaining Entity Integration
-        - Application of NLP techniques on structured data
-        - Discovering and Summarizing the content of structured data      
-    - title:  Data mining and analytics on big  and textual data
+    - title: Evidence-grounded NLP and LLMs
       items:
-        - Large Language Models for data and text analytics
-        - Anomaly and Novelty Detection and explanation on time series
-        - Explainable time series analytics
-        - Fairness in ML
-    - title: Keyword search on structured data
-      items:
-        - Techniques for searching keywords in relational multi-table database
-    - title: Semantic web
-      items:
-        - Techniques for ontology alignment and integration
+        - Claim verification and fact-checking over textual, tabular and structured evidence
+        - Evidence retrieval, source attribution and evidence-level explanations
+        - RAG and LLM pipelines whose outputs can be inspected, audited and validated by domain experts
+        - Table QA and Multi-table QA over complex reports and semi-structured sources
 
+    - title: Explainable and Auditable AI
+      items:
+        - Post-hoc explanations for black-box machine learning models
+        - Evidence attribution, feature contribution analysis and model-agnostic diagnostics
+        - Counterfactual explanations for interpretability, recourse and fairness auditing
+        - Explainable decision-support systems for high-impact domains
+
+    - title: Semantic Robustness and Red-teaming of Textual Models
+      items:
+        - Adversarial testing of NLP models and LLM-based systems
+        - Universal triggers and semantic-preserving perturbations
+        - Robustness auditing of fact-checking, RAG and language-based AI pipelines
+        - Bias diagnosis and vulnerability analysis in textual models
+
+    - title: Data Integration and Explainable Entity Matching
+      items:
+        - Entity matching, record linkage and data cleaning over heterogeneous sources
+        - Explainable entity matching with evidence-based and cluster-based explanations
+        - Deep learning and transformer-based models for entity matching
+        - Data quality, deduplication and interpretable data integration pipelines
+
+    - title: Interpretable Time-series Analysis
+      items:
+        - Interpretable clustering of multivariate time series
+        - Novelty and anomaly detection for system health monitoring
+        - Forecasting of irregularly sampled multivariate time series
+        - Self-supervised learning and decomposition-based methods for time-series forecasting
+
+    - title: Benchmarking and Reproducible Evaluation
+      items:
+        - Controlled benchmarks for evaluating LLMs on complex evidence
+        - Evaluation protocols for textual, tabular, semi-structured and financial data
+        - Synthetic and reproducible benchmarks for comparing AI pipelines
+        - Stress testing of models under noise, layout variation, missing data and heterogeneous evidence
+
+    - title: Fairness, Auditability and Responsible AI
+      items:
+        - Fairness-aware machine learning and fair classification
+        - Scalable mitigation of fairness harms
+        - Auditability of model behaviour across groups and decision settings
+        - Transparent trade-offs between accuracy, fairness and operational constraints
+
+    - title: Financial AI and Decision Support
+      items:
+        - Reproducible benchmarking for stock market prediction and portfolio allocation
+        - Integration of heterogeneous financial signals, including prices, macroeconomic indicators, relations and news
+        - Evaluation of classification, regression and ranking models for financial prediction
+        - Portfolio-oriented evaluation and decision-support workflows
+
+    - title: Controllable LLM Systems for Education and Expert Workflows
+      items:
+        - LLM systems guided by explicit phases, interaction moves and assessment criteria
+        - Intelligent tutoring systems and reading comprehension support
+        - Expert-guided workflows for education, training, compliance and decision support
