@@ -475,9 +475,9 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-time-series-analysis",
-          title: 'Time-series Analysis',
-          description: "Techniques for analyzing time-series",
+            },},{id: "projects-interpretable-time-series-analysis",
+          title: 'Interpretable Time-series Analysis',
+          description: "Methods for interpretable clustering, novelty detection, self-supervised learning and forecasting of multivariate time series.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/at_project/";
             },},{id: "projects-enterprise-data-analysis",
