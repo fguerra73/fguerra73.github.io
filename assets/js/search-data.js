@@ -525,6 +525,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/public/";
+            },},{id: "projects-semantic-robustness-and-red-teaming",
+          title: 'Semantic Robustness and Red-teaming',
+          description: "Methods for testing the robustness of NLP and LLM systems against adversarial triggers, semantic perturbations and manipulative formulations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/red_teaming/";
             },},{id: "projects-re-search-alps",
           title: 'Re-search Alps',
           description: "CEF Telecom",
