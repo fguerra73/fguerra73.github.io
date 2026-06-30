@@ -490,9 +490,9 @@ ninja.data = [{
           description: "Development of Machine Learning and Deep Learning Techniques for Entity Matching",
           section: "Projects",handler: () => {
               window.location.href = "/projects/eem_project%20(copia)/";
-            },},{id: "projects-entity-matching",
-          title: 'Entity Matching',
-          description: "Development of Machine Learning and Deep Learning Techniques for Entity Matching",
+            },},{id: "projects-data-integration-and-explainable-entity-matching",
+          title: 'Data Integration and Explainable Entity Matching',
+          description: "Methods for matching, linking, cleaning and explaining heterogeneous records in data integration pipelines.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/em_project/";
             },},{id: "projects-evidence-grounded-nlp-and-llms",
