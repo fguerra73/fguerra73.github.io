@@ -500,11 +500,16 @@ ninja.data = [{
           description: "NLP and LLM systems that connect answers, claims and decisions to explicit evidence.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/evidence_grounded_nlp_llms/";
-            },},{id: "projects-fairness-in-ai",
-          title: 'Fairness in AI',
-          description: "Evaluating the fairness of AI processes",
+            },},{id: "projects-fairness-auditability-and-responsible-ai",
+          title: 'Fairness, Auditability and Responsible AI',
+          description: "Methods and tools for evaluating, mitigating and auditing fairness harms in machine-learning systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fai_project/";
+            },},{id: "projects-financial-ai-and-decision-support",
+          title: 'Financial AI and Decision Support',
+          description: "Reproducible benchmarking and portfolio-oriented evaluation for stock market prediction models.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/financialAI/";
             },},{id: "projects-keystone",
           title: 'KEYSTONE',
           description: "COST Action IC1302",
