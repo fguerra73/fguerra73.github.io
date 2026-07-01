@@ -19,7 +19,7 @@
       institution: University of Modena and Reggio Emilia, Italy
       year: 2004
 
-    - title: Master Degree in Information Engineering
+    - title: M.Sc. in Information Engineering
       institution: University of Modena and Reggio Emilia, Italy
       year: 2000
 
@@ -177,9 +177,23 @@
         - Data integration and data management
         - Software engineering
 
-- title: Selected Projects and Coordination
+- title: Selected Projects
   type: time_table
   contents:
+    - title: PANACEA
+      institution: PRIN 2022
+      year: "2023 - present"
+      description:
+        - AI-based cybersecurity, anomaly detection, intrusion response and explainable decision support.
+        - DTALab contributes expertise on explainable AI, anomaly interpretation, evidence-aware analysis and trustworthy decision-support pipelines.
+
+    - title: RESIST0
+      institution: PR FESR Emilia-Romagna
+      year: "2024 - present"
+      description:
+        - Digital twins, production resilience, ESG indicators, ESG-washing detection and decision support.
+        - DTALab contributes methods for data analysis, explainable AI, ESG indicators and evidence-aware decision-support workflows.
+
     - title: KEYSTONE COST Action - Semantic Keyword Search on Structured Data Sources
       institution: COST Action IC1302
       year: "2013 - 2017"
@@ -190,7 +204,7 @@
       institution: INEA/CEF/ICT/A2016/1296967
       year: "2017 - 2019"
       description:
-        - Project activity on research data integration and information systems.
+        - Research data integration and information systems.
 
 - title: Online Profiles
   type: map

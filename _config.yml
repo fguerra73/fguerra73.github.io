@@ -2,29 +2,35 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Francesco Guerra @DIEF-UNIMORE
+title: Francesco Guerra
 first_name: Francesco
-middle_name: 
+middle_name:
 last_name: Guerra
+
 contact_note: >
-  Full Professor at the University of Modena and Reggio Emilia. 
-  Research in trustworthy data-centric AI, NLP/LLMs, explainable AI, data integration and financial AI.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
- Francesco Guerra is Full Professor of Information Engineering at the University of Modena and Reggio Emilia.
+  Full Professor in Information Engineering at the University of Modena and Reggio Emilia.
+  Research in trustworthy data-centric AI, NLP/LLMs, explainable AI, data integration,
+  entity matching, time-series analytics, fairness and financial AI.
+
+description: >
+  Francesco Guerra is Full Professor in Information Engineering at the University of Modena and Reggio Emilia.
   His research focuses on trustworthy data-centric AI, NLP and LLMs, explainable and auditable AI,
-  data integration, entity matching, time-series analytics, fairness, benchmarking and financial decision support.
+  data integration, entity matching, semantic robustness, time-series analytics, fairness,
+  benchmarking and financial decision support.
+
 footer_text: >
   Francesco Guerra — University of Modena and Reggio Emilia.
-keywords: Francesco Guerra, University of Modena and Reggio Emilia, UNIMORE, DTALab, data-centric AI, NLP, LLM, explainable AI, data integration, entity matching, time-series analysis, fairness, financial AI
- # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://fguerra73.github.io # the base hostname & protocol for your site
-baseurl: 
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+keywords: Francesco Guerra, University of Modena and Reggio Emilia, UNIMORE, DTALab, data-centric AI, trustworthy AI, NLP, LLM, explainable AI, data integration, entity matching, time-series analysis, fairness, financial AI
+
+lang: en
+icon: assets/img/favicon.png
+
+url: https://fguerra73.github.io
+baseurl: ""
+last_updated: true
+impressum_path:
+back_to_top: true
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -67,9 +73,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: assets/img/social_preview.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -83,15 +89,16 @@ pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
+google_site_verification: Zbt7DQI-KdbU0kpwT65g4G4TjYC3NZErAuU8_KQVZRs # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Research notes # blog_name will be displayed in your blog page
+blog_description: Notes on trustworthy data-centric AI, NLP/LLMs, data integration and explainable AI.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -119,19 +126,13 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname:  # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -297,7 +298,7 @@ enable_publication_badges:
   altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
   dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
   google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+  inspirehep: false # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
@@ -379,11 +380,11 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false # enables google analytics
+enable_google_analytics: true # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
-enable_google_verification: false # enables google site verification
+enable_google_verification: true # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
